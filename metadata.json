@@ -1,0 +1,8 @@
+{
+  "name": "GLI Limpeza Urbana",
+  "description": "Soluções completas para limpeza urbana, gestão de resíduos e conservação ambiental para municípios e empresas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #10b981;
+  --color-brand-blue-dark: #0f172a;
+  --color-brand-blue-medium: #2563eb;
+  --color-brand-graphite: #374151;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-brand-graphite bg-white antialiased;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-brand-blue-dark font-bold tracking-tight;
+}
+
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
